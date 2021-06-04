@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`aid`, `aname`, `aemail`, `apassword`) VALUES
-(1, 'Shantanu Kardile', 'shan@gmail.com', 'shan');
+(1, 'Shantanu Kardile', 'shan@xyz.com', 'shan');
 
 -- --------------------------------------------------------
 
@@ -62,10 +62,10 @@ CREATE TABLE `buyers` (
 --
 
 INSERT INTO `buyers` (`bid`, `bname`, `badd`, `bnum`, `bemail`, `bpassword`) VALUES
-(1, 'Milind Kardile', 'maibadha aprt, hingne, sinhgad road', 7798987844, 'milind@email.com', 'milind'),
+(1, 'Milind Kardile', 'road', 7777777777, 'milind@email.com', 'milind'),
 (2, 'Hayat Sarsilmaz', 'Istanbul', 9966584123, 'hayat@email.com', 'hayat'),
 (3, 'Murat Sarsilmaz', 'Turkey', 7845895612, 'murat@email.com', 'murat'),
-(4, 'Natasha Romonov', 'New York', 7798987844, 'natasha@email.com', 'natasha');
+(4, 'Natasha Romonov', 'New York', 7755555664, 'natasha@email.com', 'natasha');
 
 -- --------------------------------------------------------
 
@@ -191,7 +191,7 @@ INSERT INTO `sellers` (`sid`, `sname`, `sadd`, `snum`, `semail`, `spass`) VALUES
 (1, 'A', 'A', 9988998899, 'A@email.com', 'A'),
 (2, 'B', 'B', 9999999999, 'B@email.com', 'B'),
 (3, 'C', 'C', 9988774568, 'C@email.com', 'C'),
-(4, 'D', 'D', 9960694422, 'D@email.com', 'D');
+(4, 'D', 'D', 9966694472, 'D@email.com', 'D');
 
 --
 -- Indexes for dumped tables
